@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "184091641191",
+    "project_id": "farmshop-8e40f",
+    "storage_bucket": "farmshop-8e40f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184091641191:android:4e8c61672793a0d1889bc2",
+        "android_client_info": {
+          "package_name": "com.app.shopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184091641191-rfl45fngin3fuf0ds181vu1uqdfgt972.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOTywUTcxs_pmkqd8fc5HvyLkYzNGgBqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184091641191-rfl45fngin3fuf0ds181vu1uqdfgt972.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
