@@ -129,7 +129,7 @@ public class AdminAddNewProductActivity extends AppCompatActivity {
     private void StoreProductInformation()
     {
         loadingBar.setTitle("Add New Product");
-        loadingBar.setMessage("Dear Admin, please wait while we are adding the new product.");
+        loadingBar.setMessage("Dear Admin, please wait while we are adding the new product to farm database.");
         loadingBar.setCanceledOnTouchOutside(false);
         loadingBar.show();
 

@@ -14,6 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.app.shopping.Prevalent.Prevalent;
 import com.app.shopping.R;
+import com.app.shopping.services.MainActivity1;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DatabaseReference;
@@ -44,6 +45,7 @@ public class ConfirmFinalOrderActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Check();
             }
+
         });
     }
 
@@ -99,10 +101,12 @@ public class ConfirmFinalOrderActivity extends AppCompatActivity {
                                 public void onComplete(@NonNull Task<Void> task) {
                                     if (task.isSuccessful()){
                                         Toast.makeText(ConfirmFinalOrderActivity.this,"Your final Order has been placed successfully.",Toast.LENGTH_SHORT).show();
-                                        Intent intent = new Intent(ConfirmFinalOrderActivity.this,HomeActivity.class);
-                                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                                        Intent intent = new Intent(ConfirmFinalOrderActivity.this, MainActivity1.class);
                                         startActivity(intent);
-                                        finish();
+//                                        Intent intent = new Intent(ConfirmFinalOrderActivity.this,HomeActivity.class);
+//                                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+//                                        startActivity(intent);
+//                                        finish();
                                     }
                                 }
                             });

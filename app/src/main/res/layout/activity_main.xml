@@ -13,6 +13,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:src="@drawable/applogo"
+        android:outlineAmbientShadowColor="#000000"
+
         />
     <TextView
         android:id="@+id/app_slogan"

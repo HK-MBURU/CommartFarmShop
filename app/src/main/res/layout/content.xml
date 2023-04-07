@@ -8,6 +8,8 @@
     tools:context=".HomeActivity"
     tools:showIn="@layout/toolbar">
 
+
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_menu"
         android:layout_width="match_parent"

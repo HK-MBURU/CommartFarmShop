@@ -17,48 +17,52 @@
         android:textStyle="bold"
 
         />
+
     <EditText
         android:id="@+id/shippment_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt"
-        android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
         android:hint="Your Name"
 
-        />
+        android:minHeight="48dp" />
+
     <EditText
         android:id="@+id/shippment_phone_number"
-        android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/shippment_name"
-        android:layout_marginTop="40dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
         android:layout_marginRight="20dp"
         android:hint="Your Phone Number"
-        />
+        android:inputType="number"
+        android:minHeight="48dp" />
+
     <EditText
         android:id="@+id/shippment_address"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/shippment_phone_number"
-        android:layout_marginTop="40dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
         android:layout_marginRight="20dp"
         android:hint="Your Home Address"
-        />
+        android:minHeight="48dp" />
+
     <EditText
         android:id="@+id/shippment_city"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/shippment_address"
-        android:layout_marginTop="40dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
         android:layout_marginRight="20dp"
         android:hint="Your City Name"
-        />
+        android:minHeight="48dp" />
     <Button
         android:id="@+id/confirm_final_order_btn"
         android:layout_width="match_parent"

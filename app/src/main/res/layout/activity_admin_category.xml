@@ -30,32 +30,29 @@
         android:layout_marginRight="10dp">
 
         <ImageView
-            android:id="@+id/t_shirts"
-            android:layout_width="wrap_content"
+            android:id="@+id/vegetablesim"
+            android:layout_width="85dp"
             android:layout_height="80dp"
-            android:src="@drawable/vegetables"
-            android:autofillHints="vegetables"/>
+            android:autofillHints="vegetables"
+            android:src="@drawable/vegetables" />
 
         <ImageView
-            android:id="@+id/sports_t_shirts"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/tubers"
-            />
+            android:id="@+id/tubersim"
+            android:layout_width="79dp"
+            android:layout_height="84dp"
+            android:src="@drawable/tubers" />
 
         <ImageView
-            android:id="@+id/female_dresses"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/nuts"
-            />
+            android:id="@+id/nutsim"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/nuts" />
 
         <ImageView
-            android:id="@+id/sweathers"
+            android:id="@+id/dairyim"
             android:layout_width="90dp"
-            android:layout_height="wrap_content"
-            android:src="@drawable/dairy"
-            />
+            android:layout_height="match_parent"
+            android:src="@drawable/dairy" />
     </LinearLayout>
     <LinearLayout
         android:id="@+id/linear2_category_layout"
@@ -68,28 +65,28 @@
         android:layout_marginTop="10dp">
 
         <ImageView
-            android:id="@+id/glasses"
+            android:id="@+id/livestockim"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@drawable/livestock"
             />
 
         <ImageView
-            android:id="@+id/purses_bags_wallets"
+            android:id="@+id/cerealsim"
             android:layout_width="90dp"
             android:layout_height="80dp"
             android:src="@drawable/cereals"
             />
 
         <ImageView
-            android:id="@+id/hats_caps"
+            android:id="@+id/fruitsim"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@drawable/fruits"
             />
 
         <ImageView
-            android:id="@+id/shoes"
+            android:id="@+id/legumesim"
             android:layout_width="70dp"
             android:layout_height="80dp"
             android:src="@drawable/legumes"
@@ -108,28 +105,27 @@
         android:layout_marginTop="10dp">
 
         <ImageView
-            android:id="@+id/headphones_handfree"
+            android:id="@+id/meatim"
             android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:src="@drawable/meat"
-            />
+            android:layout_height="70dp"
+            android:src="@drawable/meat" />
 
         <ImageView
-            android:id="@+id/laptop_pc"
+            android:id="@+id/fishim"
             android:layout_width="90dp"
             android:layout_height="80dp"
             android:src="@drawable/fish"
             />
 
         <ImageView
-            android:id="@+id/watches"
+            android:id="@+id/honeyim"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@drawable/honey"
             />
 
         <ImageView
-            android:id="@+id/mobilephones"
+            android:id="@+id/herbsim"
             android:layout_width="70dp"
             android:layout_height="80dp"
             android:src="@drawable/herbs"
